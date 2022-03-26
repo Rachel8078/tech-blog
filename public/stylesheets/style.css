@@ -6,23 +6,24 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-  color: #333;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #fff5eb;
+  background-color: #7d7d7d;
 }
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #119e79;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #0eec97;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #119e79;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,7 +34,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: #0eec97;
 }
 
 .post-list {
@@ -49,7 +50,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #0eec97;
 }
 
 textarea {
@@ -83,7 +84,13 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 48pt;
+}
+
+header nav a {
+  padding: 0 15px;
+  margin: 0 15px; 
+  font-size: 20px;
 }
 
 main {
@@ -97,16 +104,17 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
-  font-size: 100%;
+  color: #119e79;
+  font-size: 20px;
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #0eec97;
 }
 
 .delete-post-btn {
@@ -143,7 +151,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #8f9491da;
 }
 
 .comment .meta {
