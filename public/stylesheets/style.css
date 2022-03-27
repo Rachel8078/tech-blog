@@ -128,6 +128,13 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+}
+
+.title h2 {
+  color: #119e79;
 }
 
 .post .title span {
@@ -160,8 +167,14 @@ main {
   opacity: .6;
 }
 
+
 .new-post-form input {
-  width: 300px;
+  width: 75%;
+}
+
+.new-post-form textarea {
+  width: 75%;
+  height: 200px;
 }
 
 .edit-post-form {
