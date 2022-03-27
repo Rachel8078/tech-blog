@@ -24,4 +24,4 @@ async function editFormHandler(event) {
   }
 }
 
-document.querySelector('#save-btn').addEventListener('submit', editFormHandler);
+document.querySelector('#save-btn').addEventListener('click', editFormHandler);
